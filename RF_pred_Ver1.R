@@ -10,8 +10,9 @@ setwd("F:/Financial_Model")
 source("script/get_endpoint.R")
 n=65
 alpha = 0.7
+ntree=50
 
-test_begin = as.Date("2016-06-01")
+test_begin = as.Date("2017-12-01")
 # test_end = as.Date("2016-06-05")
 test_end = Sys.Date()
 
